@@ -293,3 +293,36 @@ nav a:hover { color: var(--green); }
   .products-grid { grid-template-columns: 1fr; }
   nav a { margin-left: 16px; font-size: 0.88rem; }
 }
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  padding: 80px 24px;
+  background: #f8f9fa;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.contact-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+.contact-card:hover { transform: translateY(-4px); }
+.contact-card h4 {
+  margin: 12px 0 8px;
+  font-size: 1rem;
+  color: #1a1a2e;
+}
+.contact-card a {
+  color: #6c63ff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  word-break: break-all;
+}
+.contact-card a:hover { text-decoration: underline; }
