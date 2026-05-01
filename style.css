@@ -325,4 +325,24 @@ nav a:hover { color: var(--green); }
   text-decoration: none;
   word-break: break-all;
 }
-.contact-card a:hover { text-decoration: underline; }
+.contact-card a:hover { text-decoration: underline; }/* ===== BRAND STORY ===== */
+.brand-story {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 70px 24px;
+  text-align: center;
+}
+.brand-story-inner {
+  max-width: 780px;
+  margin: 0 auto;
+}
+.brand-story h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.brand-story p {
+  font-size: 1.05rem;
+  color: #c9c9e3;
+  line-height: 1.9;
+  font-weight: 300;
+}
