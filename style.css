@@ -248,7 +248,8 @@ nav a:hover { color: var(--green); }
   gap: 28px;
   text-align: center;
 }
-.feature { background: #fff; padding: 28px 20px; border-radius: var(--radius); box-shadow: var(--shadow); }
+.feature { background: #fff; padding: 28px 20px; border-radius: var(--radius); box-shadow: var(--shadow); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.feature:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 20px 50px rgba(0,0,0,0.18); }
 .feature-icon { font-size: 2.2rem; margin-bottom: 12px; }
 .feature h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 .feature p { font-size: 0.85rem; color: var(--gray); }
@@ -339,6 +340,16 @@ nav a:hover { color: var(--green); }
 .brand-story-inner {
   max-width: 780px;
   margin: 0 auto;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.brand-story-inner:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(108,99,255,0.25);
 }
 .brand-story h2 {
   font-size: 2rem;
