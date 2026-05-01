@@ -331,7 +331,7 @@ nav a:hover { color: var(--green); }
   text-decoration: none;
   word-break: break-all;
 }
-.contact-card a:hover { text-decoration: underline; }/* ===== BRAND STORY ===== */
+.contact-card a:hover { color: var(--green); }/* ===== BRAND STORY ===== */
 .brand-story {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   padding: 70px 24px;
