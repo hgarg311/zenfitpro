@@ -326,12 +326,11 @@ nav a:hover { color: var(--green); }
   color: #1a1a2e;
 }
 .contact-card a {
-  color: #6c63ff;
+  color: var(--gray);
   font-size: 0.9rem;
   text-decoration: none;
   word-break: break-all;
-}
-.contact-card a:hover { color: var(--green); }/* ===== BRAND STORY ===== */
+}/* ===== BRAND STORY ===== */
 .brand-story {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   padding: 70px 24px;
