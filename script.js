@@ -1,5 +1,5 @@
 // =============================================
-//  ZenMat – script.js  (lightweight enhancements)
+//  ZenFit Pro – script.js  (lightweight enhancements)
 // =============================================
 
 // Smooth navbar active-link highlight on scroll
@@ -51,6 +51,6 @@ document.querySelectorAll('.buy-btn').forEach((btn) => {
   btn.addEventListener('click', (e) => {
     const platform = [...btn.classList].find((c) => c !== 'buy-btn');
     const product  = btn.closest('.product-info').querySelector('h3').textContent;
-    console.log(`[ZenMat] Redirecting to ${platform} for: ${product}`);
+    console.log(`[ZenFit Pro] Redirecting to ${platform} for: ${product}`);
   });
 });
